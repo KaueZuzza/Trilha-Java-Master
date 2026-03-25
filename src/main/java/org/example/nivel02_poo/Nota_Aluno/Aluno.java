@@ -1,4 +1,4 @@
-package org.example.nivel02_poo;
+package org.example.nivel02_poo.Nota_Aluno;
 
 public class Aluno {
     // Atributos (O que o aluno TEM)
@@ -11,7 +11,7 @@ public class Aluno {
         this.nota = nota;
     }
 
-    // Método (O que o aluno FAZ ou como ele se mostra)
+    // Metodo (O que o aluno FAZ ou como ele se mostra)
     public void mostrarDados() {
         System.out.println("Nome: " + nome + " | Nota: " + nota);
         if (nota >= 7) {

@@ -1,4 +1,4 @@
-package org.example.nivel02_poo;
+package org.example.nivel02_poo.Nota_Aluno;
 
 public class TestarAluno {
     public static void main(String[] args) {
