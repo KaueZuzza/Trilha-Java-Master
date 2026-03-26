@@ -21,5 +21,14 @@ public class PetShop {
         System.out.println(" ");
         System.out.print("Mel!, late...");
         dog2.latir();
+
+
+        Gato meuGato = new Gato("Frajola", "Siames");
+
+        // O método miar() é do Gato
+        meuGato.miar();
+
+        // O método comer() veio da Herança (do Pai Animal)
+        meuGato.comer();
     }
 }
